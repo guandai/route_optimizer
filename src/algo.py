@@ -1,9 +1,10 @@
 import googlemaps
 import polyline
 import folium
+import os
 
 # Replace with your actual Google Maps API Key
-API_KEY = "AIzaSyCkzIG1-kS8qV2Wv8u56MWMStbYiMZ7pHU"
+API_KEY = os.environ.get('GOOGLE_MAPS_API_KEY')
 
 def process_algo(addresses):
     # Initialize the Google Maps client
