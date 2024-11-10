@@ -1,3 +1,6 @@
 Flask
 numpy
 opencv-python-headless
+googlemaps
+polyline
+folium
